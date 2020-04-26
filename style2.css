@@ -1,0 +1,152 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.mainbody .cengrid .box1 a:hover {
+  background-color: #00ffad;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 400;
+}
+.mainbody {
+    padding-top: 5vh;
+    margin: 0 0 0 0;
+    background-color: #00BCD4;
+    width: 99vw;
+    
+}
+img {
+  height: 90%;
+  width: 80%;
+}
+mark{
+  background-color: #00ffad;
+  border: 2px solid #333333;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+.navbody {
+  padding-top: 2%;
+  font-family: 'Montserrat';
+  background-color: #00BCD4;
+  width: 99vw;
+  
+}
+.mainbody .title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  text-align: center;
+  font-family: "Righteous";
+  background-color: #0097A7;
+  color: #ffffff;
+  font-size: 7.5vh;
+  border: 2px solid #000000;
+}
+.mainbody .introduction {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: #00ffad;
+  color: #212121;
+  font-size: 6.5vh;
+  margin-bottom: 3vh;
+  margin-bottom: 1%;
+  border: 2px solid #000000;
+}
+  .mainbody .cengrid {
+    padding-top: 2vh;
+    font-family: "Roboto", "Montserrat" ;
+    display: grid;
+    text-align: center;
+    padding-left: 2%;
+    color: #212121;
+    
+  }
+  .mainbody .cengrid .box1 {
+    width: 63vw;
+    grid-column: 1;
+  grid-row: 3;
+    height: 400px; 
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #0097A7;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+  }
+  .mainbody .cengrid .box1 .p {
+    font-family: "Montserrat";
+    
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .mainbody .cengrid .box2 {
+    grid-column: 2;
+  grid-row: 3;
+    margin-left: 3%;
+    width: 27vw;
+    height: 400px; 
+    background-color: #B2EBF2;
+    border: 2px solid #000000;
+  }
+  
+  .mainbody a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", "Montserrat" ;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333;
+    
+  }
+  @media only screen and (max-width: 767px) {
+    
+    .foot .footer{
+      height: 10vh;
+      width: 95vw;
+    }
+    .mainbody {
+      width: 94.8vw;
+      padding-top: 25px;
+    }
+    
+  }
+  @media only screen and (min-width: 767px) {
+    .mainbody .cengrid .box1 a:hover {
+      background-color: #00ffad;
+      color: rgb(0, 0, 0);
+      font-size: 1em;
+      font-weight: 400;
+    }
+  }
+  .mainbody .inbetween{
+    height: 25px;
+    background-color: #00BCD4;
+  }
+  .foot .footer {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    width: 99vw;
+    height: 12vh;
+    padding-top: 0.1vh;
+    padding-bottom: 6vh;
+    text-align: center;
+    background-color: #0097A7;
+    color: #FFFFFF;
+    font-size: 4vh;
+    font-family: "Montserrat";
+
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+input {
+  width: 60%;
+}

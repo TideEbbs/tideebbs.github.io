@@ -1,0 +1,116 @@
+html, body {
+  margin: 0;
+}
+
+  
+  .mainbody .cengrid .box2 a:hover {
+    background-color: #00ffad;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .mainbody {
+      padding-top: 2%;
+      font-family: 'Roboto Slab', serif;
+      background-color: #00BCD4;
+      width: 99vw;
+      
+  }
+  .navbody {
+    padding-top: 2%;
+    font-family: 'Montserrat';
+    background-color: #00BCD4;
+    width: 99vw;
+    
+}
+  .mainbody .title {
+    text-align: center;
+    font-family: "Righteous";
+    background-color: #0097A7;
+    color: #ffffff;
+    font-size: 7.5vh;
+    border: 2px solid #000000;
+  }
+  .mainbody .introduction {
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: #00ffad;
+    color: #212121;
+    font-size: 6vh;
+    margin-bottom: 1%;
+    border: 2px solid #000000;
+  }
+    .mainbody .cengrid {
+      padding-top: 2vh;
+      display: grid;
+      text-align: center;
+      padding-left: 4%;
+      padding-right: 4%;
+      color: #212121;
+    }
+    .mainbody .cengrid .box1 {
+      width: 87vw;
+      height: 300px; 
+      font-size: 3vh;
+      padding-left: 2%;
+      padding-right: 2%;
+      background-color: #0097A7;
+      color: #FFFFFF;
+      border: 2px solid #000000;
+    }
+    .p {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      line-height: 20px;
+    }
+    
+    .mainbody .cengrid .box2 {
+      width: 22vw;
+      height: 300px; 
+      background-color: #B2EBF2;
+    }
+    .mainbody .cengrid .box3 {
+      width: 22vw;
+      height: 300px; 
+      background-color: #0097A7;
+      color: #FFFFFF;
+    }
+    
+    @media only screen and (max-width: 767px) {
+      
+      .foot .footer{
+        height: 12vh;
+        width: 95vw;
+      }
+      .mainbody {
+        width: 98vw;
+        padding-top: 25px;
+      }
+      
+    }
+    @media only screen and (min-width: 767px) {
+      .mainbody .cengrid .box1 {
+        font-size:2.3vh
+      }
+    }
+    .mainbody .inbetween{
+      height: 25px;
+      background-color: #00BCD4;
+    }
+    .foot .footer {
+      width: 99vw;
+      height: 12vh;
+      padding-top: 0.1vh;
+      padding-bottom: 6vh;
+      text-align: center;
+      background-color: #0097A7;
+      color: #FFFFFF;
+      font-size: 4vh;
+      font-family: "Montserrat";
+    }
+  input {
+    width: 60%;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
